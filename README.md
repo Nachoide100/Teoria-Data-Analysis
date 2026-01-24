@@ -11,7 +11,7 @@ Enfoque en el uso de Python para transformar datos crudos en conocimiento median
 
 * **Librerías Core:** `Pandas`, `NumPy`, `Seaborn`, `Matplotlib`.
 * **Técnicas:** Limpieza de datos (Data Cleaning), imputación de nulos, normalización y detección de outliers.
-* **Proyecto Destacado:** [Retail Sales Analysis](https://github.com/Nachoide100/Anal-sis-Retail-Sales) - Uso de `DuckDB` y series temporales para identificar tendencias de mercado.
+* **Proyecto Destacado:** [Retail Sales Analysis](https://github.com/Nachoide100/Retail-Sales.git) - Uso de `DuckDB` y series temporales para identificar tendencias de mercado.
 
 
 
