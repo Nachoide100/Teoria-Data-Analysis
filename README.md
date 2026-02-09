@@ -1,6 +1,6 @@
-# 📖 Data Analysis Wiki & Knowledge Base
+# 📖 Data Analysis Wiki 
 
-Bienvenido a mi repositorio central de conocimientos. Este espacio actúa como mi "segundo cerebro", documentando no solo **qué** herramientas utilizo, sino **cómo** pienso y resuelvo problemas analíticos complejos. Aquí encontrarás desde ejercicios técnicos de optimización de consultas hasta los fundamentos teóricos que validan mis modelos.
+Bienvenido a mi repositorio central de conocimientos. Este espacio actúa como mi base teórica, documentando lo que voy aprendiendo y los conceptos clave con los que me voy quedando. Aquí encontrarás desde ejercicios prácticos de consultas hasta los fundamentos teóricos de la estadística aplicada. Como esta hecho por mí (y no sohy ningún experto) cualquier error que encuentres no dudes en comunicármelo. Un saludo!!
 
 ---
 
@@ -44,6 +44,7 @@ Transformación de datos fríos en historias visuales. Mis dashboards están dis
 * **DAX Avanzado:** Creación de medidas para KPIs dinámicos (comparativas *Year-over-Year*, acumulados, ratios de conversión).
 
 ### 🚀 Proyectos Aplicados:
+*Algunos de mis proyectos para que veas dinámicamente de lo que hablo*
 | Proyecto | Enfoque de Visualización | Enlace |
 | :--- | :--- | :--- |
 | **Optimización de Librería** | **Business Intelligence:** KPIs de rotación de stock y gestión de inventario eficiente. | [Ver Dashboard ↗️](https://github.com/Nachoide100/Optimizacion-libreria.git) |
