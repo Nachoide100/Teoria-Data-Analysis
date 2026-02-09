@@ -1,57 +1,55 @@
 # 📖 Data Analysis Wiki & Knowledge Base
 
-Bienvenido a mi repositorio central de conocimientos. Aquí documento mi proceso de aprendizaje, metodologías y la resolución de problemas técnicos en el ecosistema de análisis de datos. Este repositorio sirve como mi "segundo cerebro" y como evidencia de mi rigor técnico.
+Bienvenido a mi repositorio central de conocimientos. Este espacio actúa como mi "segundo cerebro", documentando no solo **qué** herramientas utilizo, sino **cómo** pienso y resuelvo problemas analíticos complejos. Aquí encontrarás desde ejercicios técnicos de optimización de consultas hasta los fundamentos teóricos que validan mis modelos.
 
 ---
 
-## 📂 Contenidos del Wiki
+## 🗄️ 1. SQL: Ingeniería y Consultas Avanzadas
+El SQL es el motor de mi análisis. No me limito a la extracción básica (`SELECT *`); utilizo SQL como una herramienta de procesamiento analítico para preparar los datos antes de que lleguen a cualquier herramienta de visualización.
 
-### 🐍 1. Análisis de Datos con Python
-Enfoque en el uso de Python para transformar datos crudos en conocimiento mediante procesos de EDA (Exploratory Data Analysis) y Wrangling.
-
-* **Librerías Core:** `Pandas`, `NumPy`, `Seaborn`, `Matplotlib`.
-* **Técnicas:** Limpieza de datos (Data Cleaning), imputación de nulos, normalización y detección de outliers.
-* **Proyecto Destacado:** [Retail Sales Analysis](https://github.com/Nachoide100/Retail-Sales.git) - Uso de `DuckDB` y series temporales para identificar tendencias de mercado.
-
+**Enfoque Técnico:**
+* **Window Functions:** Uso extensivo de `OVER()`, `PARTITION BY` y `RANK()` para análisis comparativos y de ranking sin colapsar filas.
+* **Time Series & Rolling Windows:** Gestión temporal avanzada para calcular medias móviles y suavizar tendencias de mercado.
+* **Optimización (CTEs):** Estructuración de lógica compleja mediante *Common Table Expressions* para mejorar la legibilidad y el mantenimiento del código.
 
 
----
-
-### 🗄️ 2. Consultas y Analítica con SQL
-Dominio de SQL no solo para extracción, sino para el procesamiento analítico avanzado directamente en la base de datos.
-
-* **Conceptos Avanzados:**
-    * **Window Functions:** Uso de `OVER()`, `PARTITION BY` y `RANK()` para análisis comparativos.
-    * **Time Series:** Gestión de fechas y creación de **Rolling Windows** (Medias Móviles) para suavizar tendencias.
-    * **Optimización:** Creación de vistas, subconsultas y CTEs (Common Table Expressions) para mejorar la legibilidad y rendimiento.
-* **Implementación:** Experiencia con `PostgreSQL`, `SQLite` y `SQLAlchemy` (ORM).
-
-
+### 📂 Recursos en este repositorio:
+* [🛠️ **Ejercicios Prácticos de SQL (Challenge)**](https://github.com/Nachoide100/Practicar-SQL.git) - *Colección de problemas resueltos (espero que correctamente) en mi proceso de aprendizaje.*
+* [📝 **Apuntes: Funciones y aspectos relevantes**](https://github.com/Nachoide100/Teoria-Data-Analysis/blob/f538e33e336ff78e90806ea813e2994ff5d58470/pdfs/Learn_SQL_Basics_for_Data_Science.pdf) - *Las notas que voy tomando de vídeos, libros... principalmente sobre funciones*
 
 ---
 
-### 📊 3. Dashboards con Power BI
-Transformación de datos en dashboards interactivos que facilitan la toma de decisiones estratégicas (Business Intelligence).
+## 📉 2. Estadística Aplicada al Negocio
+La base científica que garantiza que los hallazgos no sean fruto del azar (ruido), sino evidencia real. Aquí documento los aspectos clave de la estadística: 
 
-* **Modelado de Datos:** Creación de esquemas en estrella (Star Schema) y relaciones entre tablas.
-* **DAX (Data Analysis Expressions):** Desarrollo de medidas personalizadas para KPIs (Ventas interanuales, tasas de retención, márgenes de beneficio).
-* **Storytelling:** Diseño de interfaces intuitivas basadas en principios visuales para comunicar hallazgos a perfiles no técnicos.
+**Conceptos Clave:**
+* **Inferencia Estadística:** Aplicación del *Teorema del Límite Central* para asegurar la representatividad en muestras de datos.
+* **Distribuciones:** Identificación de comportamientos normales vs. sesgados (Skewness/Kurtosis) para detectar anomalías y evaluar riesgos.
+* **Ética del Dato:** Evaluación crítica de sesgos (*Bias*) en la recolección para evitar modelos discriminatorios.
+* *Y mucho más...*
 
 
+
+### 📂 Recursos en este repositorio:
+* [🧠 **Preguntas que me van surgiendo**](https://github.com/Nachoide100/Preguntas-estadistica.git) - *Preguntas para el que quiera practicar los conceptos clave de la estadística aplicada*
+* [📚 **Teroía: Practical Statistics for Data Science**](https://wwnorton.com/books/naked-statistics/) - *Libro fundamental para entender la estadística completado con mis apuntes*
 
 ---
 
-### 📉 4. Estadística Aplicada al Análisis
-La base científica que garantiza que los hallazgos no sean fruto del azar, sino de la evidencia estadística.
+## 📊 3. Visualización y Power BI
+Transformación de datos fríos en historias visuales. Mis dashboards están diseñados bajo principios de **Storytelling** y **UX**, priorizando la claridad para la toma de decisiones ejecutivas.
 
-* **Análisis Descriptivo:** Medidas de tendencia central y dispersión.
-* **Estadística Inferencial:** * **Teorema del Límite Central:** Aplicación al muestreo para asegurar la representatividad.
-    * **Distribuciones:** Identificación de comportamientos normales y sesgados en datasets reales.
-* **Ética en Datos:** Evaluación de sesgos (Bias) en la recolección y análisis para evitar conclusiones discriminatorias o erróneas.
+**Metodología:**
+* **Modelado de Datos:** Esquemas en estrella (*Star Schema*) optimizados para el rendimiento en Power BI.
+* **DAX Avanzado:** Creación de medidas para KPIs dinámicos (comparativas *Year-over-Year*, acumulados, ratios de conversión).
 
+### 🚀 Proyectos Aplicados:
+| Proyecto | Enfoque de Visualización | Enlace |
+| :--- | :--- | :--- |
+| **Optimización de Librería** | **Business Intelligence:** KPIs de rotación de stock y gestión de inventario eficiente. | [Ver Dashboard ↗️](https://github.com/Nachoide100/Optimizacion-libreria.git) |
+| **Monitorización Sísmica** | **Mapas de Calor y Riesgo:** Uso de geolocalización para visualizar la magnitud y recurrencia de terremotos. | [Ver Dashboard ↗️](https://github.com/Nachoide100/Analisis-Earthquakes.git) |
+| **US Political Discourse** | **Análisis Geoespacial:** Visualización de sentimiento y engagement en un mapa de EE.UU. | [Ver Dashboard ↗️](https://github.com/Nachoide100/Analisis-tweets-politicos.git) |
 
-
-[Image of Normal Distribution with standard deviations]
 
 
 ---
